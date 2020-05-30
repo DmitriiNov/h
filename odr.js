@@ -155,3 +155,11 @@ window.addEventListener('load', function () {
                 $.each(res, function (index, element) {
                         alert("Result: " + element)
                 });
+            })
+            .fail(function () {
+                alert("error");
+            });
+    }
+ 
+    init();
+}, false);
